@@ -1,0 +1,32 @@
+{
+  "name": "al",
+  "version": "0.6.0",
+  "description": "Authorial London: The City in the Lives and Works of its Writers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sul-cidr/al.git"
+  },
+  "keywords": [
+    "literary geography",
+    "London"
+  ],
+  "author": "Kenny Ligda, Karl Grossner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sul-cidr/al/issues"
+  },
+  "homepage": "https://github.com/sul-cidr/al#readme",
+  "dependencies": {
+    "bower": "^1.5.3"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  }
+}

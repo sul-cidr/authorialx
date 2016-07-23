@@ -1,0 +1,6 @@
+<span class="work-title">from <em><%= workHash[@work_id].title %></em> (<%= workHash[@work_id].work_year%>)<br/>
+<%= authHash[workHash[@work_id].author_id] %> <br/></span>
+...<%= @safe @highlight %>... [<span class="passage-link" val="<%= @passage_id %>">full passage</span>]
+<!-- <%= #@safe poetize(@highlight) %>
+<%= #@safe poetize(@text) %> -->
+<hr/>

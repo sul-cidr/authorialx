@@ -1,0 +1,26 @@
+
+<div id="map">
+  <div id="spin_map" class="spinner-loader hidden"></div>
+  <!-- <div id="map_footer"> -->
+    <div id="gallery_region" class="hidden">
+    </div>
+    <div id="legend_base">
+      <p><em>place references in</em> <br/> Works | Bios | Both</p>
+      <ul id="legend_base_list">
+        <li id='leg_base'>
+          <svg width="96" height="20">
+            <circle cx="8" cy="12" r="6" class="dot-red"/>
+            <circle cx="48" cy="12" r="6" class="dot-yellow"/>
+            <circle cx="84" cy="12" r="6" class="dot-orange"/>
+          </svg>
+        </li>
+      </ul>
+    </div>
+    <!-- for author compare -->
+    <div id="legend_compare" class="hidden">
+      <h4>Authors</h4>
+      <p>Work | Bio | Both</p>
+      <ul id="legend_list"></ul>
+    </div>
+  <!-- </div> -->
+</div>

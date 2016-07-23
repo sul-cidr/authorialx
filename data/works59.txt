@@ -1,0 +1,60 @@
+work_id	title	auth_id	pub_year
+20400	Epistle 3	10351	1733
+20401	Bleak House	10377	1853
+20402	David Copperfield	10377	1849
+20403	Adventures in the Skin Trade	10399	1955
+20404	A Clergyman's Daughter	10403	1935
+20405	As I Please	10403	1944
+20406	Down and Out in Paris and London	10403	1933
+20407	Keep the Aspidistra Flying	10403	1936
+20408	War-time Diary: 1940	10403	1940
+20409	War-time Diary: 1941	10403	1941
+20410	Tom Jones	10435	1749
+20411	The Life of Samuel Johnson	10436	1791
+20412	The Light that Failed	10387	1890
+20413	A Dictionary of the English Language	10355	1755
+20414	London	10355	1738
+20415	The Waste Land	10423	1922
+20416	A Room of One's Own	10391	1929
+20417	Flush	10391	1933
+20418	The Picture of Dorian Gray	10383	1891
+20419	Vanity Fair	10373	1847
+20420	Importance of Being Earnest	10383	1895
+20422	A Refusal to Mourn the Death, by Fire, of a Child in London	10399	1945
+20423	Ulysses	10393	1922
+20424	Dubliners	10393	1914
+20425	The Garden	10425	1913
+20426	Hugh Selwyn Mauberley	10425	1920
+20427	Epithalamion Made at Lincoln's Inn	10343	1633
+20428	Girl, 20	10401	1971
+20429	The Rape of the Lock	10351	1712
+20430	The Expedition of Humphry Clinker	10357	1771
+20431	London	10359	1901
+20432	The Adventures of Roderick Random	10357	1748
+20433	Frankenstein, or The Modern Prometheus	10409	1818
+20434	Ode to a Nightingale	10365	1819
+20435	On Seeing the Elgin Marbles	10365	1817
+20436	Lines on the Mermaid Tavern	10365	1818
+20437	The Human Factor	10397	1978
+20438	The End of the Affair	10397	1951
+20439	The Rivals	10353	1775
+20440	A Trip to Scarborough	10353	1777
+20441	The Critic	10353	1779
+20442	The School for Scandal	10353	1777
+20443	St. Patrick's Day; Or, The Scheming Lieutenant	10353	1775
+20444	Pygmalion	10385	1913
+20445	Twicknam Garden	10343	1631
+20446	The Will	10343	1631
+20447	Satire II	10343	1631
+20448	Satire IV	10343	1631
+20449	Lord Arthur Savile's Crime	10383	1891
+20450	History of the World	10341	1614
+20451	The Canterbury Tales	10347	1475
+20452	The Discovery of Guiana	10341	1596
+20453	The Ministry of Fear	10397	1943
+20454	A London Life, and Other Tales	10421	1889
+20455	Picture and Text	10421	1893
+20456	The Coxon Fund	10421	1894
+20457	Culture and Anarchy	10415	1869
+20458	The Forsyte Saga	10405	1922
+20459	Oliver Twist	10377	1837

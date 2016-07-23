@@ -1,0 +1,38 @@
+<div id="searchbox">
+  <div id="search_passages class="form-group"">
+    <input id="q_input" width = 220px; class="typeahead" type="text"
+      onkeydown="if(event.keyCode==13) $('#q_button').click()"
+      placeholder="any term(s) or placename(s)...">
+    <button id="q_button" type="submit" class="btn btn-primary btn-sm">Search</button>
+    <span class="clear-search crumb-link hidden">Clear</span>
+  </div>
+</div>
+<div id="results_region_search">
+  <span class="galleria">
+    <h4>A Gallery of Map Marginalia</h4>
+    <img src="assets/images/galleria/drop-of-thames_th.png" width=310 /><br/>
+    <p>A Drop of Thames Water <br/>
+    <em>Punch magazine (1850), via Wikimedia Commons</em></p>
+
+    <img src="assets/images/galleria/3b33549u_th.jpg" width=310/><br/>
+    <p>London, England - London buses [no date]<br/>
+    <em>George Grantham Bain Collection (Library of Congress)</em></p>
+
+    <img src="assets/images/galleria/08576u_street-scene_th.jpg" width=310/><br/>
+    <p>Cheapside, London, England<br/>
+    <em>Detroit Publishing Company, 1905; Print no. "10784"</em></p>
+
+    <img src="assets/images/galleria/38043u_street-sketch_th.jpg" width=310/><br/>
+    <p>New Oxford Street, [London 1893]<br/>
+    <em>Joseph Pennell, artist</em></p>
+
+    <img src="assets/images/galleria/Grimshaw-NightfallThames_th.jpg" width=310/><br/>
+    <p>Nightfall down the Thames, [London 1880]<br/>
+    <em>John Atkinson Grimshaw [Public domain], via Wikimedia Commons </em></p>
+
+    <img src="assets/images/galleria/jerrold-william_blanchard-london-B20124-72_th.jpg" width=310/><br/>
+    <p>London: A Pilgrimage [book by Blanchard Jerrold 1872]<br/>
+    <em>Gustave Doré [illustrator] </em></p>
+
+  </span>
+</div>

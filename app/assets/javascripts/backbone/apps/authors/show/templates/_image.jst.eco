@@ -1,0 +1,4 @@
+<div class="image">
+  <img title="<%= @label %>" iid="<%= @id %>" prid="<%= @placeref_id %>"
+    src="assets/images/mapped/thumbs/tn_<%= @filename %>" /><br/>
+</div>

@@ -1,0 +1,34 @@
+<div id="header_region"></div>
+<div id="map_region"></div>
+<div id="content_region">
+  <div id="spin_content" class="spinner-loader hidden"></div>
+</div>
+<div id="place_passages_region" class="hidden"></div>
+<div id="image_modal"></div>
+<div id="footer_region"></div>
+
+<%= javascript_tag do %>
+	$(function() {
+		AL.start();
+
+    setInterval('cycleQuotes()', 8800 );
+
+    $('#myCarousel').on('slide.bs.carousel', function (e) {
+      var active = $(e.target).find('.carousel-inner > .item.active');
+      var from = active.index();
+      var next = $(e.relatedTarget);
+      var to = next.index();
+      if(to == 1) {
+        $("#splash_modal").removeClass('bkgd-img')
+        $("#splash_credits").addClass('hidden')
+      } else if (to == 0) {
+        $("#splash_modal").addClass('bkgd-img')
+        $("#splash_credits").removeClass('hidden')
+      }
+    })
+
+    $("#video_thumb").click(function(){
+        $("#myCarousel").carousel(9);
+    });
+	});
+<% end %>

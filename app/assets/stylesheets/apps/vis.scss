@@ -1,0 +1,44 @@
+
+// d3.pack for place author distributions
+
+text {
+  font: 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+.circle-place {
+  fill: #ccc;
+}
+
+.node:hover .circle-place {
+  fill: lightcoral;
+  cursor: pointer;
+}
+
+.axis text  {font: 10px sans-serif;}
+
+.legend-text {font-size: 10px;}
+
+.bar rect, .legend-bar {
+  fill: lightcoral;
+  shape-rendering: crispEdges;
+}
+
+#histYears {
+  .bar text {
+    fill: #fff;
+  }
+  .axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  .barAll rect {
+    fill: #fff;
+    fill-opacity: 0;
+    stroke: #666;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+  }
+}

@@ -1,0 +1,192 @@
+/* places.scss */
+
+/***/
+/* PlacesApp general */
+/***/
+
+#places_region {
+  display: none;
+}
+
+.place {display: inline-block;}
+
+#arealist_region {
+  // height:400px;
+  overflow-y: scroll;
+  font-family: 'english';
+  font-size: 1.2em;
+}
+
+#spin_district {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  z-index: 1000;
+}
+
+/***/
+/* PlacesApp List module */
+/***/
+
+
+arealist { padding:0 6px; font-family: Palatino-linotype, Georgia;
+  font-size: 1em;
+  a {text-decoration: none !important; }
+  a:hover {background: yellow;}
+}
+
+#places_navmap {
+  h4 {margin-left: 6px; font-style: italic; }
+}
+
+/***/
+/* PlacesApp List Keymap */
+/***/
+
+#keymap {
+  svg {background: aliceblue;}
+
+  // path {
+  //   stroke: white;
+  //   stroke-width: 0.25px;
+  //   fill: #993333;
+  //   cursor:pointer;
+  // }
+}
+
+.borough {
+  fill: #999;
+  stroke-width: 0.5;
+  stroke: #fff;
+  cursor:pointer;
+}
+.selected {
+  fill: #993333;
+}
+
+#search_places {
+  float:left;
+  margin-top: 5px;
+}
+#search_place_chooser {
+  float:right;
+  font-size: smaller;
+  .radio { margin:0;}
+}
+// .style("fill", "#eee")
+// .style("stroke-width", "0.5")
+// .style("stroke", "#333")
+
+/***/
+/* PlacesApp Show module */
+/***/
+
+.crumb-places {
+  font-size: .7em; color:#336699 !important;
+  cursor: pointer; text-align: left !important;}
+
+.yearline {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+.place-cloud-intro {
+  text-align: left;
+  display:inline-block;
+}
+
+#panel_title.red {
+
+}
+
+#place_passages_region {
+  width: 300px;
+  // height: 85%;
+  top: 120px;
+  right: 25px;
+  // display: none;
+  padding: 8px;
+  // border-radius: 16px;
+  background-color: #eee;
+  opacity: 0.85;
+  position: absolute;
+  h4 { margin: 5px 0; text-align: center;}
+  box-shadow: 10px 10px 5px #888888;
+}
+
+
+#placepassages-body {
+  max-height: 500px;
+  padding: 0 12px 0 8px;
+  overflow:auto;
+  hr { border: 0; border-bottom: 1px dashed #ccc; background: #999; width:80%;}
+}
+
+#crumbs_places {
+  font-size: 0.7em;
+
+  ul {
+    margin: 0; padding: 0;
+    list-style-type: none;
+  }
+  ul li { display: inline;}
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background: aliceblue;
+    border: none;
+    color:#000;
+    border-radius:0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  min-width: 160px;
+  _width: 160px;
+  padding: 4px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+
+  .ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+
+    // .ui-state-hover, .ui-state-active {
+    //   color: #ffffff;
+    //   text-decoration: none;
+    //   background-color: #0088cc;
+    //   border-radius: 0px;
+    //   -webkit-border-radius: 0px;
+    //   -moz-border-radius: 0px;
+    //   background-image: none;
+    // }
+  }
+}

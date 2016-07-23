@@ -1,0 +1,16 @@
+<div id="search_container">
+  <div id="search_places" class="ui-widget">
+    <input id="search_input" type="text" placeholder="">
+    <button type="submit" class="btn btn-primary btn-sm">Search</button>
+  </div>
+  <div id="search_place_chooser"  class="ui-widget">
+    <div class="radio">
+      <label><input type="radio" name="optradio" value="hoods" checked>Neighborhoods</label>
+    </div>
+    <div class="radio">
+      <!-- <label><input type="radio" name="optradio" value="all" >All places</label> -->
+      <label ><input type="radio" name="optradio" value="all" >All places</label>
+    </div>
+  </div>
+  <hr/>
+</div>

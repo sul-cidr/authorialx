@@ -1,0 +1,118 @@
+/* authors.scss */
+
+/***/
+/* General, AuthorsApp */
+/***/
+
+#spin_authors {
+  position: absolute;
+  top: 320px;
+  left: 150px;
+  z-index: 1000;
+}
+
+/***/
+/* List module */
+/***/
+
+#authors_region {
+  position: absolute;
+  top:85px;
+  bottom: 2%;
+  overflow-y:auto;
+}
+
+#authorlist_region {
+  font-family:'english';
+  padding: 0;
+}
+
+#authorlist {
+  padding:0 6px; margin-top: 0;
+  a {text-decoration: none;}
+  a:hover {background: yellow;}
+  p {font-size: .9em; margin:2px 0 0 0;}
+  }
+
+.author {
+  display: inline-block;
+  width: 100px;
+  padding-right: 6px;
+}
+
+#selected_cat_authors {
+  margin: 2px 22px 0 8px;
+}
+
+/***/
+/* Show module */
+/***/
+
+#title_region {
+  hr { margin: 5px 0; border: 0; height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));}
+}
+
+#nav_region {
+  font-family: 'english';
+}
+
+#author_content_region {
+  p {font-size: 1.1em;}
+  padding-right: 8px;
+  //
+}
+
+.byline {
+  margin: 6px 0 0;
+  font-style: italic;
+}
+
+#imagelist, #links {
+  display: inline-flex;
+  padding-top:3px;
+}
+// .ui-dialog-titlebar-close {
+//   float:right;
+// }
+
+#image_modal {
+  overflow-x: hidden;
+}
+.ui-dialog-titlebar-close {
+  background-image: url('images/close14a.png');
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+button.ui-dialog-titlebar-close:focus { outline:none !important }
+
+.ui-dialog .ui-dialog-content {
+  padding:0 !important;
+}
+.image {
+  padding-right: 3px;
+  cursor: pointer;
+}
+// passages are either for bio or works
+.passages-bio {
+  hr {display: none;}
+}
+.photo-pop {
+  border: red 1px solid;
+}
+// .ui-dialog-titlebar p {
+#unmapped_tag {
+  font-weight: normal;
+  font-style: italic;
+  margin:0;
+  color:red;
+  font-size: .9em;
+}
+.bioplace {text-decoration: underline;
+  color: #993333;
+  cursor: pointer;}
+.worksplace {text-decoration: underline;
+  color: darkgreen;
+  cursor: pointer;}

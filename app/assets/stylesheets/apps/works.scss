@@ -1,0 +1,43 @@
+#works_region {
+  position: absolute;
+  top:90px;
+  bottom: 2%;
+  overflow-y:auto;
+}
+
+#worklist_region_w {
+  font-family: 'english';
+  margin-left: 6px;
+}
+
+#selected_cat_works {
+  margin: 2px 22px 0 2px;
+}
+
+.work {
+  margin: 8px 5px;
+  line-height: 1.2em;
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover { background: yellow;}
+}
+
+.passages-works {
+  padding: 0 8px;
+}
+.work-title {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #993333
+}
+
+.crumb-works {
+  font-size: .7em; color:#336699 !important;
+  cursor: pointer; text-align: left !important;}
+
+.results-head {
+  font-style: italic;
+  color: #993333;
+}

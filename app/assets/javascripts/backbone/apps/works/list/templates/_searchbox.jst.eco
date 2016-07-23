@@ -1,0 +1,5 @@
+<div id="search_works" class="ui-widget">
+  <input id="search_input_w" type="text" placeholder="search titles">
+  <!--<button type="submit" class="btn btn-primary btn-sm">Submit</button>-->
+    <hr/>
+</div>

@@ -1,0 +1,100 @@
+<div id="header">
+  <div id="header_left"><a id="home_link">Home/Reset</a></div>
+  <div id="title">
+    <h1>
+      <img src="assets/images/curly-left.png" />
+      Authorial London
+      <img src="assets/images/curly-right.png" style="margin-left:-6px;"/>
+    </h1><br/>
+    <span class="tagline">The City in the Lives and Works of its Writers</span>
+  </div>
+  <div id="header_right"><a id="intro_link">Introduction</a>&nbsp;&nbsp;|&nbsp;
+    <a id="about_link">About</a></div>
+</div>
+
+<div id="map_chooser"
+  <span class="strong"><i class="fa fa-lg fa-map-o"/>&nbsp;Base map: </span>
+  <ul>
+    <li val="l_osm" class="active">Modern</li>
+    <li val="l_indicator">Late 19c</li>
+    <li val="l_bowles">Late 18c</li>
+    <li val="l_taylor">Early 18c</li>
+  </ul>
+</div>
+
+<div id="about" style="display:none">
+  <span class="right" style="display:inline-block"><i class="fa fa-close"/></i></span>
+  <h3>What, who, why, and how</h3>
+  <div id="about_content" >
+
+    <h4 class="red">What</h4>
+    <p>The <span class="strong">Authorial London</span> project is compiling and mapping references to places
+      within London found in works by writers who have lived there.</p>
+    <p>At present our corpus includes roughly 1,600 passages from 193 works written between the 14th and 20th
+      centuries by 47 authors from 12 literary communities (periods). The site allows exploring and analyzing them
+      from literary, geographical, and biographical perspectives, on dimensions of genre, form,
+      literary community (period), social standing, and neighborhood.</p>
+    <p>Authorial London has been developed as the first instance of a re-usable platform we call,
+      “Authorial {X}.“ Our intent is that researchers and college instructors may readily instantiate
+      a similar site for any place of interest, and engage either a class or research community of interest
+      in gathering data for it: authors, texts, references to places within texts, and the geometry
+      necessary for mapping them.</p>
+    <a class="pointer" onclick="scrollTo('mapcredits')">Historical Map Credits</a>
+
+    <h4 class="red">Who</h4>
+    <p>This work extends the earlier <a href="http://regis.stanford.edu/authlondon" target="_blank">"A Guide to Authorial London"</a> project at
+      Stanford University (2011), led by <a href="http://bookhaven.stanford.edu/2013/02/a-durable-sense-of-joy-master-miltonist-martin-evans-1935-2013/" target="_blank"><b>Martin Evans</b></a>
+      of the English Department. The biographical essays appearing here are those authored by Professor Evans for the original project.
+    </p>
+     <p>This latest phase of the project is being developed at Stanford University Libraries by:</p>
+    <ul>
+      <li><strong>Kenneth Ligda</strong>, PhD <em>co-investigator & Editor</em>
+        <br/>Office of Vice Provost for Teaching and Learning (VPTL)
+      </li>
+      <li><strong>Karl Grossner</strong>, PhD <em>co-investigator & lead developer</em>
+        <br/>Center for Interdisciplinary Digital Research (CIDR)
+      </li>
+      <li><strong>David McClure</strong> <em>developer & Rails mentor</em>
+        <br/>Center for Interdisciplinary Digital Research (CIDR)
+      </li>
+    </ul>
+
+    <h4 class="red">Why</h4>
+    <p>Authorial London opens up one of the most alluring and perplexing characteristics of literature:
+      geography.  Few things are so quickly dated and so obscure to outsiders in literature as references
+      to place.  A neighborhood nickname, a locally notorious alley, may be rich in meaning as Dickens
+      writes them, but utterly baffle readers a mere generation later or a country distant.
+      Authorial London provides us, in many cases for the first time, with a means to directly explore
+      what places meant to writers as they lived and imagined them, to see how meaning changes over time
+      and varies between writers, and to learn how places are reified as cultural concepts
+      (Fleet Street, Scotland Yard) and transformed beyond recognition.</p>
+    <p>A distinctive feature of the site is its openness to input and expansion: a dynamic data structure
+      allow for the addition of new writers and works by the many scholars and readers of London literature.
+      It is a future-facing site, designed to integrate a broadening canon of the past and the fresh writing
+      of contemporary authors.</p>
+    <p>Beyond this, Authorial London is designed to promote literary exploration of any geographic location.
+      The site is built as the first instance of Authorial {X} architecture, which will soon be made
+      available on GitHub for those interested in creating their own site to investigate the interplay
+      of literature and place anywhere on Earth.</p>
+
+    <h4 class="red">How</h4>
+      <p class="subhead">Creating a geotagged corpus</p>
+        <p>Authorial London aims to include every significant London place reference in every text by the writers included on the site. A significant place reference is defined as a passage that in itself carries information about the place—a description, a note on what happens at that location, a comprehensible component of plot.
+          Repeated references to a place within a single work are omitted unless they contain significant additional information; for instance, if a character lives in Park Lane, Park Lane passages will not be included for every instance in which the character goes home—only the first description, and any interesting supplements to this description, are included. </p>
+        <p>The initial list of London place references was created by reading approximately 40 chronologically diverse texts and gathering every place mentioned within today’s Greater London area as defined by the London Orbital Motorway (M25). These references were then used to perform a machine search of the 690 text files by Authorial London writers available on <a href="http://www.gutenberg.org" target = "_blank">Project Gutenberg</a>.  Hits from this search were used to generate a set of paragraph-length results tagged with the place references.  Within these paragraphs, additional place references were identified, which were added to the place reference list. The elastic search was then re-run to generate an expanded set of results.  Before inclusion on the site, every passage was read for relevance and to catch false machine identifications. It is important to note that the machine search omitted many twentieth-century texts owing to copyright restrictions. These texts were (and are) being read to cull relevant place references.</p>
+        <p>Our benchmark for the current release has been to include significant passages from all 47 authors, drawing on as many works as possible. This has been achieved; however, many texts and passages are not yet represented. We will be adding to the site until all place references by all writers are represented, and will also be expanding the site with writers not yet included.</p>
+        <p>Human reading and curation affords key benefits that we think essential to the site’s mission. For instance, Authorial London includes passages in which a place is referred to in ways machines typically do not catch: premodern spellings, playful misspellings, poetic descriptions (e.g., “the silver thread” for the Thames), obsolete place names, and novel passages in which the place can only be identified by familiarity with the plot.  Pseudonyms are also included in cases where scholarly research has yielded a confident identification with a real locale.</p>
+      <p class="subhead">Georeferencing</p>
+        <p>The 2795 place references (<em>placeref</em>) in text comprised 1013 distinct strings. These were resolved to 823 distinct locations (<em>place</em>) manually. For example the 117 references to the Thames, including "river Thames," "Father Thames," and "the silver Flood," all map to the same coordinate geometry (a point in this case). In this model, each <em>placeref</em> record is a text string associated with a passage, and has a single <em>place</em> attribute. Place records have a single geometry, which are at this stage limited to points and lines.</p>
+        <p>Neighborhoods are vaguely defined here, as they are 'on-the-ground.' We record a centroid for each derived from OpenStreetMap labels, and from these compute a set of Voronoi polygons which are hidden from view and used principally for map navigation.</p>
+        <p>The point and linestring geometries on the map were derived using both automated and manual methods. The Google Maps and Nominatim geocoding services were able to accurately locate roughly 2/3 of the 1013 distinct place name strings. The remainder were geocoded manually &ndash; a tedious process with imperfect results, due to the way place names change and disappear from use over time.</p>
+      <p class="subhead">Technologies</p>
+        <p>The Authorial London web application has been built with a Ruby-on-Rails and PostgreSQL database backend, and a hybrid set of JavaScript front-end technologies, including the Backbone/Marionette framework, Leaflet/MapBox for mapping, JQuery, and D3.js. ElasticSearch was used to index the entire corpus of full texts, and an Apache Solr index of all passages is used for the free-text search function.</p>
+
+    <h4 id="mapcredits" class="red">Map Credits</h4>
+    <p>The historical maps appearing here are geo-rectified versions of raster scans retrieved from <a href="http://hcl.harvard.edu/libraries/maps/digitalmaps/" target = "_blank">Harvard College Library Digital Map Collection</a></p>
+    <p><b>Early 18th century</b>: "Taylor Map of London, England, 1723"; <a target="_blank" href="https://earthworks.stanford.edu/catalog/harvard-g5754-l7-1723-t3">Metadata</a>
+    <p><b>Late 18th century</b>: "Bowles's new pocket plan of the cities of London & Westminster with the borough of Southwark : comprehending the new buildings and other alterations to the year 1783"; <a target="_blank" href="https://earthworks.stanford.edu/catalog/harvard-g5754-l7-1783-b6">Metadata</a>
+    <p><b>Late 19th century</b>: "Indicator map of London: with the Recent improvements, 1880"; <a target="_blank" href="https://earthworks.stanford.edu/catalog/harvard-g5754-l7-1880-s6">Metadata</a>
+  </div>
+</div>

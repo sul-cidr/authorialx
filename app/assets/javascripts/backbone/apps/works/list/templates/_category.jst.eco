@@ -1,0 +1,15 @@
+
+<!-- <% if @name == "All": %>
+  <li class="category active"><%= @name  %></li>;
+<% else: %> -->
+<li class="category" value="<%=@name%>"><%= @name %></li>::
+<!-- &middot;  -->
+<!-- <% end %> -->
+
+
+<!-- a tags are excuting routes - not good -->
+<!-- <% if @name == "All": %>
+<a class="category active" href="#"><%= @name  %></a>;
+<% else: %>
+<a class="category" value="<%=@name%>" href="#"><%= @name  %></a>;
+<% end %> -->

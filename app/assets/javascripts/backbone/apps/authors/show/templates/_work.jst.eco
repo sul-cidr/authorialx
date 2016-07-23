@@ -1,0 +1,8 @@
+<div class="work">
+  <span class="work-title hanging"><a href="#workpassages/a/<%= @work_id %>" >
+    <%= @safe @title %>  </a></span>
+  <div class="word-cloud">
+    <!-- <p>word cloud of places in this work</p> -->
+    <%= @safe arrayWordCloud(@keywords) %>
+  </div>
+</div>

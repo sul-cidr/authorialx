@@ -1,0 +1,1 @@
+[<a href="#hoods/<%= @id %>" data_id=<%= @id %>><%= @safe hardSpace(@name) %></a>]

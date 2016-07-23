@@ -1,0 +1,124 @@
+/* map.scss */
+
+#map {
+  width:100vw;
+  height: 100vh;
+  background: #F8F4F4;
+  // z-index: -1;
+  p {
+    text-align: center;
+    margin-top: 250px;
+    color: #666
+  }
+}
+#spin_map {
+  position: absolute;
+  top: 400px;
+  left: 60%;
+  z-index: 10000;
+}
+
+#gallery_region {
+  position: absolute;
+  min-height: 89px;
+  left: 365px;
+  bottom: 18px;
+  // right: 195px;
+  // background: whitesmoke;
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px #888888;
+  z-index: 1;
+  padding-left:8px;
+  // float: left;
+  background: whitesmoke;
+  font-family: 'english';
+}
+
+.viewport-places {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 350px;
+  height: 100%;
+}
+
+.viewport-authors {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  left: 350px;
+  height: 100%;
+}
+
+/***/
+/* Legend */
+/***/
+
+#legend_compare, #legend_base {
+  position: absolute;
+  min-height: 75px;
+  width: 200px;
+  padding: 4px 0 4px 8px;
+  bottom: 18px;
+  // bottom: 2%;
+  right: 8px;
+  z-index: 1;
+  background: whitesmoke;
+  // oldlace whitesmoke
+  font-family: 'english';
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px #888888;
+  h4 {margin: 0;}
+  p {margin:0; text-align: left !important;}
+  em {padding-left: 6px;}
+}
+#legend_base_list {
+  padding-left: 0;
+  li {list-style-type: none; margin-left:10px;}
+  i {font-style: 6px; padding-right: 25px}
+}
+#legend_list {
+  padding-left: 0;
+  li {list-style-type: none; margin-left:3px; display: inline-flex;}
+  i {font-style: 6px; padding-right: 14px}
+}
+
+svg circle {
+  stroke: #000;
+  opacity: 0.7;
+}
+.dot-red { fill: red; }
+.dot-yellow { fill: yellow; }
+.dot-orange { fill: orange; }
+
+.auth-label {
+  margin-top: 4px;
+}
+
+/***/
+/* popup */
+/***/
+
+.author-link {
+  text-decoration: underline;
+  color: #336699;
+  cursor: pointer;
+}
+// ***
+
+.leaflet-top {
+  margin-top: 50px;
+}
+
+.leaflet-popup-content {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.place-popup {
+  h4 { font-size: 12px; }
+}
+
+.popup-header {
+  background: aliceblue;
+}

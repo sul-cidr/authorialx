@@ -1,0 +1,31 @@
+
+<div class= "dim-container">
+  <div class="dropdown child">
+   <button class="btn btn-primary dropdown-toggle" type="button"
+    data-toggle="dropdown">Genre
+   <span class="caret"></span></button>
+   <ul id="ul_genre" class="dropdown-menu">
+   </ul>
+  </div>
+  <div class="dropdown child">
+   <button class="btn btn-primary dropdown-toggle" type="button"
+    data-toggle="dropdown">Form
+   <span class="caret"></span></button>
+   <ul id="ul_form" class="dropdown-menu">
+   </ul>
+  </div>
+  <div class="dropdown child">
+   <button class="btn btn-primary dropdown-toggle" type="button"
+    data-toggle="dropdown">Community
+   <span class="caret"></span></button>
+   <ul id="ul_community" class="dropdown-menu">
+   </ul>
+  </div>
+  <div class="dropdown child">
+   <button class="btn btn-primary dropdown-toggle" type="button"
+    data-toggle="dropdown">Standing
+   <span class="caret"></span></button>
+   <ul id="ul_standing" class="dropdown-menu">
+   </ul>
+  </div>
+</div>

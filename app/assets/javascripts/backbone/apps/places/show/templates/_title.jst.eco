@@ -1,0 +1,9 @@
+<div class="panel-title">
+  <!-- TODO: use Backbone.history.navigate here -->
+  <p class="crumb-places"><< Return to neighborhoods list</p>
+  <h3><em>in and near </em><span title="zoom back" class="red" val="<%= @area_id %>"><%= @prefname %></span></h3>
+  <hr/>
+  <p class="place-cloud-intro"> Some
+    <span title="Derived from a term-frequency inverse document frequency (TF-IDF) measure for passages associated with a given neighborhood" class="help">distinctive terms</span> 
+    from the vicinity...</p>
+</div>

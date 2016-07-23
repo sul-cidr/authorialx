@@ -1,0 +1,23 @@
+<div class="panel-title">
+  <div id="author_crumbs">
+    <span id="crumb_authors" class="crumb-left crumb-link">All authors</span>
+  </div>
+  <h3><%= @prefname %></h3>
+  <p id="vitals">b.
+    <% if @birth_year < 0: %>
+      ?
+    <% else if @birth_year > 0: %>
+      <%= @birth_year %>
+    <% else if @birth_year is null: %>
+      -
+    <% end %>
+    &middot; d.
+    <% if @death_year < 0: %>
+      ?
+    <% else if @death_year > 0: %>
+      <%= @death_year %>
+    <% else if @death_year is null: %>
+      -
+    <% end %>
+  <hr/>
+</div>

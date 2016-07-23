@@ -1,0 +1,13 @@
+<!-- biography tab -->
+<div id="author_bio">
+  <ul>
+    <li><b>b. </b><%= @death_year %>
+    </li>
+    <li><b>d. </b><%= @death_year %></li>
+    <li><b>VIAF id:</b> <%= @viaf_id %></li>
+    <li><a href="https://en.wikipedia.org/wiki/<%= @wiki_id %>" target="_blank">Wikipedia</a></li>
+  </ul>
+</div>
+<div id="bio_passages">
+  <p>M. Evans <%= @prefname %> biography here</p>
+</div>

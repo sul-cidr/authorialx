@@ -1,0 +1,36 @@
+hl {
+  display:inline-block;
+  background: peachpuff;
+}
+
+.passages-search .passage-list {
+  cursor:pointer;
+  color: #336699;
+  text-decoration: underline;
+}
+.clear-search {
+  font-size: 0.9em;
+  position: absolute;
+  right: 4px;
+}
+#searchbox {
+  margin-bottom: 12px;
+}
+#results_region_search {
+  position: absolute;
+  top:85px;
+  bottom: 2%;
+  overflow-y:auto;
+  overflow-x:none;
+  width: 95%;
+  h4 { text-align: center;}
+}
+
+.galleria {
+  display:block;
+  margin-top: 20px;
+  font-family: english;
+}
+#q_input {
+  width: 220px;
+}

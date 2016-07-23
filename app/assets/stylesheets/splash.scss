@@ -1,0 +1,203 @@
+@import "compass/css3/images";
+
+body {
+  margin:0;padding:0; height: 100%;
+  font-family: "Georgia" !important;
+}
+
+h1, h2, h3 {margin: 0 !important;}
+.fa-quote-left {color: grey;}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+.smaller {
+  font-size: smaller;
+}
+.not-again {
+  font-size: 0.8em;
+  font-style: normal !important;
+  float:left;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+// set by dialog initialize
+.splash-modal {
+  min-width: 75%;
+  h1 {font-size: 2em; text-align:center; margin-bottom: 0;}
+  .ui-dialog-titlebar {display: none;}
+}
+
+.bkgd-img {
+  // background-image: url('images/Grimshaw_Thames1880_adj03.jpg') !important;
+  background-image: url('images/Grimshaw_Thames1880_adj01.png') !important;
+  background-size:100% 100% !important;
+  opacity: 0.8;
+}
+#splash_credits {
+  position: absolute;
+  bottom:3px;
+  right: 56px;
+  color: burlywood;
+  cursor: help;
+  z-index: 100;
+}
+#splash_modal {
+  div.container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100% !important;
+    height:70%;
+    margin: 0 15%;
+  }
+  overflow:hidden;
+}
+#splash_header {
+  width: 100%;
+  margin: 0 0 8px 0;
+  padding: 4px 0 2px;
+  text-align: center;
+  // background: #9FACAC;
+  // border-bottom: 1px solid #333;
+  // box-shadow: 2px 2px #ddd;
+  h3 {color: #2A4747; font-variant: small-caps;}
+}
+#item_splash {
+  cursor:auto;
+}
+#video_thumb {
+  cursor:pointer;
+}
+/* SPLASH LEFT blurb w/video icon; quotes*/
+#splash_left {
+  width: 64%;
+  float:left;
+  // background: lightblue;
+  // overflow: hidden;
+}
+
+#splash_blurb {
+  width: 100%;
+  min-height: 300px;
+  float:left;
+  img {
+    font-size: x-small;
+    margin: 0 0 6px 6px;
+    border: 1px solid black;
+  }
+  p {
+    color:white;
+    font-weight: 600;
+    font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:1.2em; }
+}
+
+/*  quotes */
+#cycler{
+  position:relative;
+  clear:both;
+  font-family: "english";
+  font-size: 1.3em;
+  div {
+    position:absolute;z-index:1; background-color: cornsilk;
+    cursor:default;
+    // opacity: 0.85;
+    padding: 12px 18px 0 18px; width: 65%;
+    border-radius: 16px;
+    min-height: 160px;
+    p { color:black; display:block; }
+  }
+  div.active{
+    z-index:3
+  }
+  .quote {
+    width: 100%;
+    b {color: #993333;}
+  }
+  .cite {display: inline-block; font-size: .8em;}
+}
+
+/* SPLASH RIGHT graphic*/
+#splash_right {
+  width: 34%; float:right; text-align: center; line-height: 1.9em;
+  p {margin-top: 0; font-size:1.2em; }
+}
+.bignum {font-weight: 800; font-size:1.4em; color: #993333;}
+#splash_graphic {
+  // float:right; text-align: center;
+}
+
+
+/* CAROUSEL */
+.glyphicon {top: 250px !important;}
+.glyphicon-chevron-right {color: whitesmoke;}
+ol.carousel-indicators {bottom: 0; margin-bottom:0;}
+
+.carousel-control { background: none; width: 40px;
+  &:hover {color:grey}}
+
+.splash-caption {
+  font-size: 1.6em; font-family: "english";
+  display:inline-block; padding:12px;}
+
+.splash-image-horiz {
+// padding-top: 40px;
+// padding-right: 45px;
+}
+
+.carousel-inner > .item {
+  width: 95%;
+  height: 75%;
+  min-height: 480px;
+  margin: auto;
+  cursor: default;
+  // background-color: whitesmoke;
+  /*font-size: 1.4em;*/
+}
+.slide-header {
+  margin: 0;
+}
+
+.carousel-control.left, .carousel-control.right {
+  width: 40px;
+  background: none !important;
+  // filter: progid: none !important;
+  outline: 0;
+}
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+.carousel-indicators li {
+  border: 1px solid #993333 !important;
+}
+.carousel-indicators .active {
+  background-color: #993333 !important;
+}
+
+/* carousel-fade */
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}

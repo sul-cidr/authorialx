@@ -1,0 +1,5 @@
+<!-- TODO: workHash works for places, why the hell not here? -->
+<span class="work-title">from <em><%= @work_id %></em></span>
+   <!-- (<%= #workHash[@work_id].work_year %>)</span> -->
+  <br/> <%= @safe @text %>
+<hr/>

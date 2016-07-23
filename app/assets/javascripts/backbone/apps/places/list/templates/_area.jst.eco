@@ -1,0 +1,2 @@
+<a href="#places/<%= @area_id %>"
+  data_id=<%= @area_id %>><%= @safe hardSpace(@prefname) %></a>&nbsp;&bull;

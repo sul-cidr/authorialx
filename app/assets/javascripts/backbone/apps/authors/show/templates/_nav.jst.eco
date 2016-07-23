@@ -1,0 +1,8 @@
+
+<div id="author_pills" class="navbar">
+  <ul class="nav nav-pills">
+    <li value="biography" class="active" id="bio_pill">BIOGRAPHY</li>
+    <li value="works" id="works_pill">WORKS</li>
+    <li value="passages" class="hidden" id="passages_pill">PASSAGES</li>
+  </ul>
+<div>

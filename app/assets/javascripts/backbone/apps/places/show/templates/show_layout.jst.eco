@@ -1,0 +1,8 @@
+<div id="one_place">
+  <div id="place_title_region">title</div>
+  <div id="place_nav_region"></div>
+  <div id="place_content_region">
+    <!-- <div id="place_pack"></div>
+    <div id="place_hist"></div> -->
+  </div>
+</div>

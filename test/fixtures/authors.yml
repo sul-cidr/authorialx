@@ -1,0 +1,31 @@
+# == Schema Information
+#
+# Table name: authors
+#
+#  author_id  :integer          not null, primary key
+#  prefname   :string
+#  label      :string
+#  surname    :string
+#  middle     :string
+#  given      :string
+#  birth_date :date
+#  death_date :date
+#  birth_year :integer
+#  death_year :integer
+#  viaf_id    :integer
+#  wiki_id    :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+#  column: value

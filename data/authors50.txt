@@ -1,0 +1,51 @@
+auth_id	prefname	viaf_id	wiki_article	given	middle	surname	bdate	byear	ddate	dyear	community	genre	standing	form	birth_qual	death_qual	birth_country	notes
+10401	Kingsley Amis	11129978	Kingsley_Amis	Kingsly	William	Amis	4/16/1922		10/22/95		Postmodernist	{"Comedy", "Novel", "Satire"}	Middle	{"Prose"}			England	
+10415	Matthew Arnold	73868557	Matthew_Arnold	Matthew		Arnold	12/24/1822		4/15/1888		Victorian	{"Nonfiction", "Polemic"}	Upper	{"Prose", "Poetry"}			England	
+10359	William Blake	54144439	William_Blake	William		Blake	11/28/1757		8/12/1827		Romantic	{"Devotional"}	Middle	{"Poetry"}			England	
+10436	James Boswell	64002337	James_Boswell	James		Boswell	10/29/1740		5/19/1795								Scotland	
+10371	Elizabeth Barrett Browning	66464493	Elizabeth_Barrett_Browning	Elizabeth	Barrett Moulton	Browning	3/6/1806		6/29/1861		Victorian	{"Narrative verse", "Romance"}	Middle	{"Poetry"}			England	
+10375	Robert Browning	24598774	Robert_Browning	Robert		Browning	5/7/1812		12/12/1889		Victorian	{"Narrative verse"}	Middle	{"Poetry"}			England	
+10363	Lord Byron	95230688	Lord_Byron	George	Gordon	Byron	1/22/1788		4/19/1824		Romantic	{"Satire", "Romance"}	Upper	{"Poetry"}			England	
+10369	Thomas Carlyle	39390702	Thomas_Carlyle	Thomas		Carlyle	12/4/1795		2/5/1881		Victorian	{"Nonfiction", "Satire", "Polemic"}	Middle	{"Prose"}			Scotland	
+10347	Geoffrey Chaucer	100185203	Geoffrey_Chaucer	Geoffrey		Chaucer		1343	10/25/1400		Medieval	{"Romance", "Nonfiction", "Comedy"}	Middle	{"Poetry", "Prose"}	circa		England	
+10419	Mark Twain	50566653	Mark_twain	Samuel	Langhorne	Clemens	11/30/1835		4/21/1910		19th c American	{"Satire", "Novel", "Bildungsroman", "Nonfiction"}	Middle	{"Prose"}			US	
+10407	Samuel Taylor Coleridge	24599809	Samuel_Taylor_Coleridge	Samuel	Taylor	Coleridge	10/21/1772		7/25/1834		Romantic	{"Romance", "Nonfiction", "Polemic"}	Middle	{"Poetry"}			England	
+10377	Charles Dickens	88666393	Charles_Dickens	Charles	John Huffam	Dickens	2/7/1812		6/9/1870		Victorian	{"Comedy", "Satire", "Novel"}	Middle	{"Prose", "Drama"}			England	
+10343	John Donne	73852666	John_donne	John		Donne		1572	3/31/1631		Restoration	{"Devotional"}	Middle	{"Poetry", "Prose"}	circa		England	Birth listed as "between 24 January and 19 June 1572"
+10429	Hilda Doolittle	4925150	Hilda_Doolittle	Hilda		Doolittle	9/10/1886		9/27/1961		Modernist	{"Misc"}	Middle	{"Poetry"}			US	
+10381	George Eliot	89000553	George_Eliot	George		Eliot	11/22/1819		12/22/1880		Victorian	{"Epic", "Novel", "Polemic"}	Middle	{"Prose"}			England	
+10423	T. S. Eliot	56609282	T.s._eliot	Thomas	Stearns	Eliot	4/25/1888		1/4/1865		Modernist	{"Epic", "Polemic", "Satire"}	Upper	{"Poetry", "Prose", "Drama"}			US	
+10434	Martin Evans	109419755		John	Martin	Evans	2/2/35		2/11/13								Wales	
+10435	Henry Fielding	61545697 	Henry_Fielding	Henry		Fielding	4/22/1707		10/8/1754			{"Satire", "Picaresque"}		{"Drama", "Prose"}			England	
+10405	John Galsworthy	61561917	John_Galsworthy	John		Galsworthy	8/14/1867		1/31/1933		Modernist	{"Epic", "Novel"}	Upper	{"Prose"}			England	
+10397	Graham Greene	59083415	Graham_Greene	Henry	Graham	Greene	10/2/1904		4/3/91		Modernist	{"Thriller", "Satire", "Novel"}	Middle	{"Prose"}			England	
+10361	William Hazlitt	87145187	William_Hazlitt	William		Hazlitt	4/10/1778		9/18/1830		Romantic	{"Nonfiction"}	Middle	{"Prose"}			England	
+10413	A. E. Housman	49249069	A.E._Housman	Alfred	Edward	Housman	3/26/1859		4/30/1936		Edwardian	{"Romance"}	Middle	{"Poetry"}			England	
+10421	Henry James	36920030	Henry_james	Henry		James	4/15/1843		2/28/1916		Modernist	{"Novel", "Short story", "Bildungsroman"}	Upper	{"Prose"}			US	
+10355	Samuel Johnson	7406725	Samuel_Johnson	Samuel		Johnson	9/18/1709		12/13/1784		Late 18th c	{"Nonfiction", "Polemic", "Satire"}	Middle	{"Prose"}			England	
+10393	James Joyce	44300643	James_Joyce	James	Augustine Aloysius	Joyce	2/2/1882		1/13/1941		Modernist	{"Comedy", "Epic", "Novel", "Bildungsroman", "Short story"}	Middle	{"Prose"}			Ireland	
+10365	John Keats	66508882	John_Keats	John		Keats	10/31/1795		2/23/1821		Romantic	{"Romance"}	Middle	{"Poetry", "Drama"}			England	
+10387	Rudyard Kipling	7524679	Rudyard_Kipling	Joseph	Rudyard	Kipling	12/30/1865		1/18/1936		Victorian	{"Novel", "Short story"}	Middle	{"Poetry", "Prose"}			India	
+10411	D. H. Lawrence	95150359	D.H._Lawrence	David	Herbert	Lawrence	9/11/1885		3/2/1930		Modernist	{"Bildungsroman", "Novel", "Short story"}	Low	{"Prose", "Poetry"}			England	
+10345	John Milton	17226855	John_milton	John		Milton	12/9/1608		11/8/1674		Milton	{"Epic", "Devotional", "Polemic"}	Middle	{"Poetry", "Drama", "Prose"}			England	
+10403	George Orwell	95155403	George_orwell	George		Orwell	6/25/1903		1/21/1950		Modernist	{"Satire", "Polemic", "Novel"}	Middle	{"Prose"}			India	
+10349	Samuel Pepys	29602261	Samuel_Pepys	Samuel		Pepys	2/23/1633		5/26/1703		Restoration	{"Nonfiction", "Diary"}	Upper	{"Prose"}			England	
+10433	Sylvia Plath	14775269	Sylvia_plath	Sylvia		Plath	10/27/1932		2/11/1963		Postmodernist	{"Confessional", "Novel"}	Middle	{"Poetry", "Prose"}			US	
+10351	Alexander Pope	61551003	Alexander_Pope	Alexander		Pope	5/21/1688		5/30/1744		Augustan	{"Satire", "Epic"}	Upper	{"Poetry"}			England	
+10425	Ezra Pound	24606774	Ezra_pound	Ezra	Weston Loomis	Pound	10/30/1885		11/1/72		Modernist	{"Epic", "Polemic"}	Middle	{"Poetry", "Prose"}			US	
+10341	Sir Walter Raleigh	107533796	Walter_raleigh	Walter		Raleigh		1554	10/29/1618		Renaissance	{"Plain style", "History", "Polemic"}	Middle	{"Poetry", "Prose"}	circa		England	
+10385	George Bernard Shaw	89019752	George_Bernard_Shaw	George	Bernard	Shaw	7/26/1856		11/2/1950		Victorian	{"Satire", "Polemic"}	Middle	{"Drama", "Prose"}			Ireland	
+10367	Percy Shelley	95159449	Percy_Bysshe_Shelley	Percy	Bysshe	Shelley	8/4/1792		7/8/1822		Romantic	{"Romance", "Satire", "Epic"}	Upper	{"Poetry", "Drama"}			England	
+10409	Mary Shelley	6293	Mary_Shelley	Mary	Wollstonecraft	Shelley	8/30/1797		2/1/1851		Romantic	{"Thriller", "Novel", "Short story", "Nonfiction"}	Middle	{"Prose", "Drama"}			England	
+10353	Richard Sheridan	9922178	Richard_Brinsley_Sheridan	Richard	Brinsley Butler	Sheridan	10/30/1751		7/7/1816		Late 18th c	{"Comedy"}	Middle	{"Drama", "Poet"}			Ireland	
+10357	Tobias Smollett	68935985	Tobias_Smollett	Tobias	George	Smollet	3/19/1721		9/17/1771		Late 18th c	{"Picaresque", "Novel"}	Middle	{"Prose", "Poetry"}			Scotland	
+10427	Gertrude Stein	22149082	Gertrude_Stein	Gertrude		Stein	2/3/1874		7/27/1946		Modernist	{"Misc", "Bildungsroman"}	Upper	{"Poetry", "Prose"}			US	
+10417	A. C. Swinburne	41846937	Algernon_Charles_Swinburne	Algemon	Charles	Swinburne	4/5/1837		4/10/1909		Victorian	{"Misc"}	Upper	{"Poetry"}			England	
+10373	William Thackeray	95208604	William_Thackeray	William	Makepeace	Thackeray	7/18/1811		12/24/1863		Victorian	{"Satire", "Novel"}	Middle	{"Prose"}			England	
+10399	Dylan Thomas	73860698	Dylan_Thomas	Dylan	Marlais	Thomas	10/27/1914		11/9/1953		Modernist	{"Misc", "Comedy", "Romance"}	Middle	{"Poetry", "Drama", "Prose"}			Wales	
+10379	Anthony Trollope	61683295	Anthony_Trollope	Anthony		Trollope	4/24/1815		12/6/1882		Victorian	{"Comedy", "Novel"}	Middle	{"Prose"}			England	
+10395	Evelyn Waugh	68937142	Evelyn_Waugh	Evelyn	Evelyn St. John	Waugh	10/28/1903		4/10/1966		Modernist	{"Satire", "Novel", "Short story"}	Middle	{"Prose"}			England	
+10383	Oscar Wilde	34464414	Oscar_wilde	Oscar	Fingal O'Flahertie Wills	Wilde	10/16/1854		11/30/1900		Victorian	{"Comedy", "Satire", "Novel"}	Middle	{"Prose", "Drama", "Poetry"}			Ireland	
+10431	Thomas Wolfe	54155795	Thomas_Wolfe	Thomas	Clayton	Wolfe	10/3/1900		9/15/1938		Modernist	{"Misc", "Novel"}	Middle	{"Prose"}			US	
+10391	Virginia Woolf	39385478	Virginia_Woolf	Virginia	Virginia	Woolf	1/25/1882		3/28/1941		Modernist	{"Epic", "Novel", "Polemic"}	Upper	{"Prose"}			England	
+10389	W. B. Yeats	46768718	W._B._Yeats	William	Butler	Yeats	6/13/1865		1/28/1939		Modernist	{"Romance", "Misc"}	Middle	{"Poetry", "Drama", "Prose"}			Ireland	
