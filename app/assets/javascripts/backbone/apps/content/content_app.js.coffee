@@ -41,7 +41,7 @@
 
     startPlaces: ->
       # console.log 'API.startPlaces from ContentApp'
-      AL.PlacesApp.List.Controller.startPlaces(1)
+      AL.PlacesApp.List.Controller.startPlaces(settings.place.keymapInit)
       ContentApp.Show.Controller.showTab("places")
 
     startWorks: ->

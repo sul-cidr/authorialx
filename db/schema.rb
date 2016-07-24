@@ -60,8 +60,6 @@ ActiveRecord::Schema.define(version: 20160522235541) do
     t.datetime "updated_at",     null: false
   end
 
-  add_index "areas", ["geom_poly_wkt"], name: "idx_areas_geompoly", using: :btree
-
   create_table "author_category_rels", force: :cascade do |t|
     t.integer  "author_id"
     t.integer  "category_id"
@@ -169,22 +167,21 @@ ActiveRecord::Schema.define(version: 20160522235541) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "placerefs", force: :cascade do |t|
+  create_table "placerefs", id: false, force: :cascade do |t|
     t.integer  "placeref_id",   null: false
-    t.integer  "work_id"
-    t.integer  "year"
     t.string   "passage_id",    null: false
     t.string   "placeref"
-    t.integer  "author_id"
     t.integer  "place_id"
+    t.integer  "work_id"
+    t.integer  "year"
+    t.integer  "author_id"
     t.string   "placeref_type"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
 
-  add_index "placerefs", ["placeref_id", "passage_id"], name: "placerefs_uniq", unique: true, using: :btree
-
   create_table "places", primary_key: "place_id", force: :cascade do |t|
+    t.string   "place_type"
     t.string   "prefname"
     t.float    "latitude"
     t.float    "longitude"
@@ -203,24 +200,6 @@ ActiveRecord::Schema.define(version: 20160522235541) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
-
-  create_table "users", force: :cascade do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
-    t.string   "reset_password_token"
-    t.datetime "reset_password_sent_at"
-    t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
-    t.datetime "current_sign_in_at"
-    t.datetime "last_sign_in_at"
-    t.string   "current_sign_in_ip"
-    t.string   "last_sign_in_ip"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
-  end
-
-  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
-  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
   create_table "work_category_rels", force: :cascade do |t|
     t.integer  "work_id"

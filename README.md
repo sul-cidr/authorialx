@@ -1,4 +1,3 @@
-# Authorial London v2
+# Authorial {X}
 
-Ruby-fied remake of Authorial London
-
+Empty instance of the Authorial{X} platform

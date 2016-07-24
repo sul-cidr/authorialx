@@ -6,7 +6,7 @@
     <li value="search" id="search_tab">&nbsp;&nbsp;<i class="fa fa-search fa-lg" />&nbsp;&nbsp;</li>
   </ul>
 </div>
-<div id="spin_authors" class="spinner-loader"></div>
+<div id="spin_authors" class="spinner-loader hidden"></div>
 <div id="spin_district" class="spinner-loader hidden">finding district...</div>
 <div id="splash_modal" class="hidden bkgd-img">
   <div class="container">

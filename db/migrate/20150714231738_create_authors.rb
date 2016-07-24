@@ -11,8 +11,6 @@ class CreateAuthors < ActiveRecord::Migration
       	t.date :death_date
       	t.integer :birth_year
       	t.integer :death_year
-        t.integer :community_id
-        t.integer :standing_id
       	t.integer :viaf_id
       	t.string :wiki_id
       	t.timestamps null: false

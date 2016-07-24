@@ -99,7 +99,7 @@
         # App.vent.trigger("map:reset")
         $("#dimensions_region").addClass('hidden')
 
-        AL.PlacesApp.List.Controller.startPlaces(1)
+        AL.PlacesApp.List.Controller.startPlaces(settings.place.keymapInit)
         # Backbone.history.navigate('places', true)
         @route = "places"
         $("#places_tab").addClass("active")

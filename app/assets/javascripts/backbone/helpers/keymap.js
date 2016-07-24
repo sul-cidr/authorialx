@@ -12,8 +12,7 @@ var makeKeymap = function(borough){
   hoods = keymap.append("svg:g")
     .attr("id", "hoods");
 
-  d3.json("assets/data/london-boroughs14.json", function(json) {
-    // console.log(json)
+  d3.json(settings.place.keymapJson, function(json) {
     // vanilla projection
     var projection = d3.geo.mercator()
         .scale(1)

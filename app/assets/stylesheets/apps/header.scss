@@ -12,10 +12,10 @@
   width: 100vw;
   height: 55px;
   // alternate banner gradient
-  // @include filter-gradient( #ffffff, #ffffff, horizontal);
-  // @include background-image(linear-gradient(left,  #993333 0%,#f2c9d1 25%,#f2c9d1 75%,#933333 100%));
   @include filter-gradient( #ffffff, #ffffff, horizontal);
-  @include background-image(linear-gradient(left,  #2A4747 0%,#BFC8C8 25%,#BFC8C8 75%,#2A4747 100%));
+  @include background-image(linear-gradient(left,  #993333 0%,#f2c9d1 25%,#f2c9d1 75%,#933333 100%));
+  // @include filter-gradient( #ffffff, #ffffff, horizontal);
+  // @include background-image(linear-gradient(left,  #2A4747 0%,#BFC8C8 25%,#BFC8C8 75%,#2A4747 100%));
   // i {cursor: pointer; color: whitesmoke; margin: 14px;}
   color: whitesmoke;
   a {

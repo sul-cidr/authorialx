@@ -1,0 +1,20 @@
+
+- bundle install
+- bower update
+- rake db:create
+- comment these lines in routes.rb
+    devise_for :admin_users, ActiveAdmin::Devise.config
+    ActiveAdmin.routes(self)
+
+- locale-specific items
+  -  show_header.jst.eco
+    - map_chooser
+    - title, tag line, content
+  - apps/map/show/show_view.js.coffee
+    - add tilelayer definitions
+    - set @Locale
+  - enable spinner
+    apps/content/show/templates/show_layout.jst.eco
+      spin_authors removeClass hidden
+  - uncomment @showNavmap(borough)
+  - replace keymap.js content

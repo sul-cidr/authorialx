@@ -1,8 +1,4 @@
 <div id="places_navmap">
-  <div id="keymap">
-    <!-- <p>keymap div</p> -->
-    <!-- <img src="assets/images/minimap300w.png" /> -->
-  </div>
-
+  <div id="keymap"></div>
   <h4></h4>
 </div>

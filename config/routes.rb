@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  # next 2 lines must be commented for initial rake db:migrate
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 

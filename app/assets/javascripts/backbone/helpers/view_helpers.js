@@ -1,3 +1,11 @@
+// $(function() {
+// })
+
+window.onload = function(){
+  $("#site_title").html(settings.global.localeName);
+  $(".tagline").html(settings.global.tagline);
+}
+
 function setCookie() {
   Cookies.set("al_splash","no-more")
   console.log(Cookies.get("al_splash"))
@@ -115,32 +123,3 @@ function cycleQuotes(){
           $next.css('z-index',3).addClass('active');//make the next div the top one
       });
     }
-
-// $(function() {
-//
-//   var toponyms = new Bloodhound({
-//     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
-//     queryTokenizer: Bloodhound.tokenizers.whitespace,
-//     prefetch: 'places.json',
-//     // remote: {
-//     //   url: '../data/films/queries/%QUERY.json',
-//     //   wildcard: '%QUERY'
-//     // }
-//   });
-//
-//   $('#search_places .typeahead').typeahead(null, {
-//     name: 'toponyms',
-//     source: toponyms
-//   });
-//
-//   $('#search_passages .typeahead').typeahead(null, {
-//     name: 'toponyms',
-//     source: toponyms
-//   });
-//   // $('#search_place').typeahead([
-//   // {
-//   // name: 'areas',
-//   // prefetch: '/areas.json',
-//   // }
-//   // ]);
-// })

@@ -11,6 +11,7 @@
         $("#spin_authors").addClass('hidden')
         # AL.ContentApp.Show.Controller.showTab('places')
         @showSearchbox()
+        # comment if no navmap
         @showNavmap(borough)
         # if areas haven't loaded, pause
         if window.location.href.substr(-7) == "#places" && typeof activeAreas == "undefined"
@@ -64,5 +65,4 @@
       # console.log navmapView
       @layout.navmapRegion.show navmapView
       # put map in div with borough selected
-      # borough = App.request "borough:current"
       $("#keymap").html( makeKeymap(borough) )
