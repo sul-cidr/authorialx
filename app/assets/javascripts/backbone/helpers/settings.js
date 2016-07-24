@@ -4,7 +4,7 @@ var settings = {
     "tagline": "Byen i bor og arbejder i sine Forfattere",
   },
   "map":{
-    "localeCoords":"[55.676098, 12.568337]",
+    "localeCoords":[55.676098, 12.568337],
     "initZoom": 12,
     "map01":{
       "":"",
@@ -21,6 +21,6 @@ var settings = {
   },
   "place": {
     "keymapJson": "assets/data/london-boroughs14.json",
-    "initialDistrict": 1
+    "keymapInit": 1
   }
 }

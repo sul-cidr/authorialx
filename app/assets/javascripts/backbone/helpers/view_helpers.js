@@ -1,5 +1,3 @@
-// $(function() {
-// })
 
 window.onload = function(){
   $("#site_title").html(settings.global.localeName);

@@ -6,7 +6,7 @@
       <span id="site_title"></span>
       <img src="assets/images/curly-right.png" style="margin-left:-6px;"/>
     </h1><br/>
-    <span class="tagline"></span>
+      <span class="tagline"></span>
   </div>
   <div id="header_right"><a id="intro_link">Introduction</a>&nbsp;&nbsp;|&nbsp;
     <a id="about_link">About</a></div>
@@ -16,9 +16,9 @@
   <span class="strong"><i class="fa fa-lg fa-map-o"/>&nbsp;Base map: </span>
   <ul>
     <li val="l_osm" class="active">Modern</li>
-    <li val="l_map01">{histmap01}</li>
-    <li val="l_map02">{histmap01}</li>
-    <li val="l_map03">{histmap01}</li>
+    <li val="l_map01">{l_map01}</li>
+    <li val="l_map02">{l_map02}</li>
+    <li val="l_map03">{l_map03}</li>
   </ul>
 </div>
 

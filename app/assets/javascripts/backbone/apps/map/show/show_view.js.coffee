@@ -104,7 +104,7 @@
 
       @map.addControl(zoomControl);
 
-      @Locale = [55.676098, 12.568337]
+      @Locale = settings.map.localeCoords
       # @London = [51.5094, -0.1212]
       # @NewYork = [40.730610, -73.935242]
       # @Copenhagen = [55.676098, 12.568337]
