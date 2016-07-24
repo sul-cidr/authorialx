@@ -79,7 +79,6 @@
         @renderPlaces({clear:true})
 
     initMap: ->
-      console.log 'initMap'
       @map = L.map('map', {
         zoomControl: false,
         attributionControl: false,
@@ -87,8 +86,6 @@
         maxZoom: 18,
         inertiaMaxSpeed: 1000
       }).setActiveArea('viewport-authors')
-
-      window.map = @map;
 
       baseMaps = {
         "Modern": l_osm
@@ -107,8 +104,7 @@
 
       @map.addControl(zoomControl);
 
-      @Locale = settings.map.localeCoords
-      @Zoom = settings.map.initZoom
+      @Locale = [55.676098, 12.568337]
       # @London = [51.5094, -0.1212]
       # @NewYork = [40.730610, -73.935242]
       # @Copenhagen = [55.676098, 12.568337]
@@ -117,7 +113,7 @@
       @map.addLayer(l_osm);
       # @map.addLayer(l_mblight);
 
-      # @map.setView(@Locale, @Zoom )
+      @map.setView(@Locale, 12)
 
       @map.addEventListener 'popupclose', ( (e) =>
         e.preventDefault
@@ -304,7 +300,7 @@
           @features.push feature
 
         @places = L.featureGroup(@features)
-        # console.log '@places',@places
+        # console.log @places
         # if there's an author_id, add this set to hash
         # if not, render all
         if params['author_id']
@@ -417,7 +413,7 @@
       this.map.flyTo(marker.getLatLng(), styles.zoom.feature);
 
     # OSM base layer
-    window.l_osm = L.tileLayer(
+    l_osm = L.tileLayer(
       'http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png',
       { detectRetina: true }
       );
