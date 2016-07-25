@@ -24,11 +24,15 @@ class Author < ActiveRecord::Base
 
   # auto_increment :author_id
 
+  # comment before adding first seed
   before_create :set_id
 
   def set_id
-    max_id = Author.maximum(:author_id).next
-    self.author_id = max_id
+    if Author.count > 0
+      self.author_id = Author.maximum(:author_id).next
+    else
+      self.author_id = 10001
+    end
   end
 
   has_many :works

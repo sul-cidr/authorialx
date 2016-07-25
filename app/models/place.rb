@@ -39,11 +39,15 @@ class Place < ActiveRecord::Base
     placearray.uniq
   }
 
-  # auto-increment work_id
+  # auto-increment place_id
   before_create :set_id
 
   def set_id
-    self.place_id = Place.maximum(:place_id).next
+    if Place.count > 0
+      self.place_id = Place.maximum(:place_id).next
+    else
+      self.place_id = 40001
+    end
   end
 
   # TODO: need places in or near an area (neighborhood, e.g. 14 is Bloomsbury)

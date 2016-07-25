@@ -21,6 +21,17 @@ class Placeref < ActiveRecord::Base
   self.primary_key = 'id'
   # self.primary_key = 'placeref_id'
 
+  # auto-increment work_id
+  before_create :set_id
+
+  def set_id
+    if placeref.count > 0
+      self.placeref_id = Placeref.maximum(:placeref_id).next
+    else
+      self.placeref_id = 30001
+    end
+  end
+
   belongs_to :passage
   belongs_to :work
   belongs_to :author

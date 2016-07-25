@@ -30,7 +30,11 @@ class Work < ActiveRecord::Base
   before_create :set_id
 
   def set_id
-    self.work_id = Work.maximum(:work_id).next
+    if Work.count > 0
+      self.work_id = Work.maximum(:work_id).next
+    else
+      self.work_id = 20001
+    end
   end
 
   def self.rank_authors(params)

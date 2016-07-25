@@ -14,6 +14,7 @@ class Category < ActiveRecord::Base
 
   self.primary_key = 'category_id'
 
+  # comment, then seed, then uncomment
   before_create :set_id
 
   def set_id

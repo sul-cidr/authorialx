@@ -18,3 +18,8 @@
       spin_authors removeClass hidden
   - uncomment @showNavmap(borough)
   - replace keymap.js content
+
+- seed dimensions
+- seed categories
+  - first comment "before_create :set_id" in category.rb, then seed
+- uncomment"before_create :set_id"

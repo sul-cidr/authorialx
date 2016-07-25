@@ -11,16 +11,14 @@
 class Placename < ActiveRecord::Base
   self.primary_key = 'placename_id'
 
-  # after_initialize do
-  #   if new_record?
-  #     :set_id
-  #   end
-  # end
-
   before_create :set_id
 
   def set_id
-    self.placename_id = Placename.maximum(:placename_id).next
+    if Placename.count > 0
+      self.placename_id = Placename.maximum(:placename_id).next
+    else
+      self.placename_id = 50001
+    end
   end
 
   belongs_to :placeref, :foreign_key => "placeref_id"
