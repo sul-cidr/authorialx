@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'authorial'
-set :repo_url, 'https://github.com/sul-cidr/al.git'
+set :application, 'authorialx'
+set :repo_url, 'https://github.com/sul-cidr/authorialx.git'
 set :deploy_host, ENV['CAP_DEPLOY_HOST']
 set :user, ENV['CAP_USER']
 set :deploy_to, ENV['CAP_DEPLOY_TO']
