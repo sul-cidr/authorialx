@@ -1,0 +1,11 @@
+
+# copy dev database to staging
+repos/authorialx $ pushdb.sh
+
+# on staging
+$ pg_restore -d authorialx -c -O xfer/authorialx_2016-07-28.backup
+
+# check destination in .env, then
+# (once shared config is installed on stage and prod machines)
+$ bundle exec cap staging deploy:check --trace
+$ SKIP_BUNDLE_AUDIT=true bundle exec cap staging deploy
