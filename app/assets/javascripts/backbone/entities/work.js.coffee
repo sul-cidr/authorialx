@@ -18,10 +18,10 @@
     getWorkEntities: (cb) ->
       works.fetch
         success: ->
-          # leave out bio essays
+          # set a filter to leave out bio essays
+          # (number bio works)
           filterBio = _.filter(works.models,(item) ->
-            # item.get("author_id") != 10434
-            item.get("work_id") >= 20400
+            item.get("bio") == null;
           )
           works.reset(filterBio);
           cb works

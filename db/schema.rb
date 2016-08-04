@@ -167,9 +167,9 @@ ActiveRecord::Schema.define(version: 20160522235541) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "placerefs", id: false, force: :cascade do |t|
-    t.integer  "placeref_id",   null: false
-    t.string   "passage_id",    null: false
+  create_table "placerefs", force: :cascade do |t|
+    t.integer  "placeref_id"
+    t.string   "passage_id"
     t.string   "placeref"
     t.integer  "place_id"
     t.integer  "work_id"
@@ -216,6 +216,7 @@ ActiveRecord::Schema.define(version: 20160522235541) do
     t.string   "title"
     t.string   "sorter"
     t.integer  "work_year"
+    t.boolean  "bio"
     t.jsonb    "keywords"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

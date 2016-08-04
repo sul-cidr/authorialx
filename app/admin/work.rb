@@ -20,6 +20,7 @@ ActiveAdmin.register Work do
     f.inputs "Work" do
       f.input :author
       f.input :title
+      f.input :bio, :hint => "an author biography?"
       f.input :sorter,   :hint => "Title without leading article(s)"
       f.input :work_year, :hint => "Year to be used for display & temporal ordering"
       f.input :keywords,

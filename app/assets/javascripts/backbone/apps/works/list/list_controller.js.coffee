@@ -9,6 +9,7 @@
       # get, render works content
       App.request "work:entities", (works) =>
         window.works = works
+        console.log works
         @layout = @getLayoutView()
 
         @layout.on "show", =>

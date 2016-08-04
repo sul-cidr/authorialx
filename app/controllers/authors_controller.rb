@@ -4,7 +4,8 @@ class AuthorsController < ApplicationController
   end
 
   def index
-    authors = Author.order(:surname).where('author_id not in (10434,10435,10436,10438)')
+    # exclude bio authors
+    authors = Author.order(:surname).where('author_id not in (10002)')
 
     if params[:author_id]
       authors = Author.where(:author_id => params[:author_id])

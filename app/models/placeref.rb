@@ -25,7 +25,7 @@ class Placeref < ActiveRecord::Base
   before_create :set_id
 
   def set_id
-    if placeref.count > 0
+    if Placeref.count > 0
       self.placeref_id = Placeref.maximum(:placeref_id).next
     else
       self.placeref_id = 30001

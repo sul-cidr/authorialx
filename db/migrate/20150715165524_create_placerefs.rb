@@ -2,7 +2,7 @@
 # fk place_id --> place.place_id
 class CreatePlacerefs < ActiveRecord::Migration
   def up
-    create_table :placerefs, {:id => false} do |t|
+    create_table :placerefs do |t|
     	t.integer :placeref_id
       t.string :passage_id
     	t.string :placeref
@@ -14,7 +14,7 @@ class CreatePlacerefs < ActiveRecord::Migration
      	t.timestamps null: false
     end
 
-    execute "ALTER TABLE placerefs ADD PRIMARY KEY (placeref_id, passage_id);"
+    # execute "ALTER TABLE placerefs ADD PRIMARY KEY (placeref_id, passage_id);"
   end
 
   def down
