@@ -20,7 +20,8 @@
 !/log/.keep
 /tmp
 
-
 /node_modules
 /db_backups
 pushdb.sh
+
+/config/local_env.yml

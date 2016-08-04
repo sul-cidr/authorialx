@@ -16,9 +16,9 @@
   <span class="strong"><i class="fa fa-lg fa-map-o"/>&nbsp;Base map: </span>
   <ul>
     <li val="l_osm" class="active">Modern</li>
-    <li val="l_map01">{l_map01}</li>
-    <li val="l_map02">{l_map02}</li>
-    <li val="l_map03">{l_map03}</li>
+    <li val="l_map01">{map01}</li>
+    <li val="l_map02">{map02}</li>
+    <li val="l_map03">{map03}</li>
   </ul>
 </div>
 

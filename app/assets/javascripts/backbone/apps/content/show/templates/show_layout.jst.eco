@@ -33,141 +33,117 @@
         <div id="item_splash" class="item active">
           <div id="splash_left">
               <div id="splash_blurb">
-                <img id="video_thumb" src="assets/images/video_thumb.jpg" alt="video introduction" align="right" width="160"/>
-                <p>The Authorial London project is compiling and mapping references to London places found in the works and biographies of writers who have lived there.</p>
-                <p>You can explore and analyze these curated passages from literary, geographical, and biographical perspectives, on dimensions of genre, form, period, social standing, and neighborhood.</p>
-                <p>The site's underlying software platform, "Authorial {X}," will be made available soon, permitting creation of similar sites for other locales.</p>
+                <img id="video_thumb" src="" alt="video introduction thumb" align="right" width="160"/>
+                <p></p>
+                <p></p>
+                <p></p>
               </div>
               <div id="cycler">
                 <!-- <div id="pull_left"> <i class="fa fa-quote-left fa-lg fa-pull-left"></i></div> -->
                 <div class="quote active">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>The age is running mad after innovation; all the business of the world is to be done in a new way; men are to be hanged in a new way; <b>Tyburn</b> itself is not safe from the fury of innovation.</p>
-                  <span class="cite">James Boswell (<em>The Life of Samuel Johnson</em>; 1791)</span>
+                  <p>QUOTE #1</p>
+                  <span class="cite">AUTHOR #1 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
                 <div class="quote">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>And Frenssh she spak ful faire and fetisly,<br/>After the scole of <b>Stratford-atte-Bowe</b>,<br/>For Frenssh of Parys was to hir unknowe</p>
-                  <span class="cite">Geoffrey Chaucer (<em>The Canterbury Tales</em>; c. 1390)</span>
+                  <p>QUOTE #2</p>
+                  <span class="cite">AUTHOR #2 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
                 <div class="quote">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>So near the fire as we could for smoke; and all over <b>the Thames</b>, with one's face in the wind, you were almost burned with a shower of firedrops.</p>
-                  <span class="cite">Samuel Pepys (<em>The Diary of Samuel Pepys</em>; 1669)</span>
+                  <p>QUOTE #3</p>
+                  <span class="cite">AUTHOR #3 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
                 <div class="quote smaller">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>So I came into <b>Smithfield</b>; and the shameful place, being all asmear with filth and fat and blood and foam, seemed to stick to me. So, I rubbed it off with all possible speed by turning into a street where I saw the great black dome of <b>Saint Paul's</b> bulging at me from behind a grim stone building which a bystander said was <b>Newgate Prison</b>.</p>
-                  <span class="cite">Charles Dickens (<em>Great Expectations</em>; 1861)</span>
+                  <p>QUOTE #4</p>
+                  <span class="cite">AUTHOR #4 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
                 <div class="quote">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>As frequent as street corners in <b>Holborn</b> are these chasms in the continuity of our ways.</p>
-                  <span class="cite">Virginia Woolf (<em>Jacob's Room</em>; 1922)</span>
+                  <p>QUOTE #5</p>
+                  <span class="cite">AUTHOR #5 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
                 <div class="quote">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>during me weeping stillstumms over the freshprosts of <b>Eastchept</b> and the dangling garters of <b>Marrowbone</b></p>
-                  <span class="cite">James Joyce (<em>Finnegan's Wake</em>; 1939)</span>
+                  <p>QUOTE #6</p>
+                  <span class="cite">AUTHOR #6 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
                 <div class="quote">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>JOHNSON. &lsquo;Yes, Sir.&rsquo;  It was a delightful day: as we walked to <b>St. Clement's church</b>, I again remarked that <b>Fleet-street</b> was the most cheerful scene in the world.</p>
-                  <span class="cite">James Boswell (<em>The Life of Samuel Johnson</em>; 1791)</span>
+                  <p>QUOTE #7</p>
+                  <span class="cite">AUTHOR #7 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
                 <div class="quote">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>If you climb to the top of the hill in <b>Greenwich Park</b>, you can have the mild thrill of standing exactly on longitude 0, and you can also examine the ugliest building in the world, Greenwich Observatory.</p>
-                  <span class="cite">George Orwell (<em>As I Please</em>; 1944)</span>
-                </div>
-                <!-- <div class="quote smaller">
-                  <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>This music crept by me upon the waters / And along the Strand, up Queen Victoria Street. / O City city, I can sometimes hear / Beside a public bar in Lower Thames Street, / The pleasant whining of a mandolin / And a clatter and a chatter from within / Where fishmen lounge at noon: where the walls / Of Magnus Martyr hold / Inexplicable splendour of Ionian white and gold.</p>
-                  <span class="cite"> (<em>T.S. Eliot</em>; 1922)</span>
-                </div> -->
-                <div class="quote">
-                  <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>Then, play us a tune on the unbroken spinet, let time be as the road to London and we a traveller on it; and let us enter London and find out what year it is there in the <b>Mile End Road</b></p>
-                  <span class="cite">Thomas Wolfe (<em>Of Time and the River</em>; 1935)</span>
+                  <p>QUOTE #8</p>
+                  <span class="cite">AUTHOR #8 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
                 <div class="quote">
                   <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
-                  <p>...the water was so high that there was boats rowed in <b>King Street</b> and all our yard was drowned</p>
-                  <span class="cite">Samuel Pepys (<em>The Diary of Samuel Pepys</em>; 1669)</span>
+                  <p>QUOTE #9</p>
+                  <span class="cite">AUTHOR #9 (<em>WORK TITLE</em>; YEAR)</span>
+                </div>
+                <div class="quote">
+                  <i class="fa fa-quote-left fa-lg fa-pull-left"></i>
+                  <p>QUOTE #10</p>
+                  <span class="cite">AUTHOR #10 (<em>WORK TITLE</em>; YEAR)</span>
                 </div>
               </div>
           </div>
         </div>
 
-        <div class="item" style="padding: 45px 45px 0 0;">
-          <!-- <div class="splash-image-horiz"> -->
-            <img src="assets/images/splash-graphic333h.jpg" style="display:block; margin: 0 auto;"/>
-          <!-- </div> -->
+        <div class="item">
+            <img src="" height=450/>
+            <span class="splash-caption">caption 1</span>
         </div>
 
         <div class="item">
           <div class="splash-image-horiz">
-            <img src="assets/images/splash01a.jpg" height = 250/>
-              <span class="splash-caption">See where authors lived<br/>
-              and the places they wrote about</span>
-          </div>
-          <div>
-            <img src="assets/images/splash01b.jpg" height = 200/>
+            <img src=""/>
+              <span class="splash-caption">caption 2</span>
           </div>
         </div>
 
         <div class="item">
-          <div><img src="assets/images/splash02.jpg"/>
-            <span class="splash-caption smaller">Discover patterns, such as Dickens (and  others) living
-              mostly in the west and writing mostly of the east and south</span>
+          <div><img src=""/>
+            <span class="splash-caption">caption 3</span>
           </div>
         </div>
 
         <div class="item">
-          <!-- <div class="splash-image-horiz"> -->
-            <img src="assets/images/splash03.jpg" />
-              <span class="splash-caption">Compare 2 or 3 writers to see where they converged
-                and diverged...</span>
-          <!-- </div> -->
+            <img src="" />
+            <span class="splash-caption">caption 4</span>
         </div>
 
         <div class="item">
           <div class="splash-image-horiz">
-            <img src="assets/images/splash06.jpg" />
-            <span class="splash-caption" style="width:280px; vertical-align:top;">...for example, expats and English: Victorian London differed for the expat Mark Twain and the English George Eliot. They did share, though, a few interesting points in common: the British Museum, Chelsea, and Hyde Park.</span>
+            <img src="" />
+            <span class="splash-caption">caption 5</span>
           </div>
         </div>
 
         <div class="item">
-          <!-- <div class="splash-image-horiz"> -->
-            <img src="assets/images/splash04.jpg"/>
-            <span class="splash-caption">Filter for all those who wrote in a given literary form or genre</span>
-          <!-- </div> -->
+            <img src=""/>
+            <span class="splash-caption">caption 6</span>
         </div>
 
         <div class="item">
-          <!-- <div class="splash-image-horiz"> -->
-            <img src="assets/images/splash05.jpg" />
-            <span class="splash-caption">Select neighborhoods, and particular places
-              within them, to see who wrote about them, when, and how place conceptions
-              have evolved in the literary imagination over time</span>
-          <!-- </div> -->
+          <img src="" />
+          <span class="splash-caption">caption 7</span>
         </div>
 
         <div class="item">
-          <!-- <div class="splash-image-horiz"> -->
-            <img src="assets/images/splash07.jpg"/>
-            <span class="splash-caption" style="font-size: 1.3em">The London modernist community is famously associated with Bloomsbury, but here we see centers of modernist life in Kensington and Chelsea.  Modernist works are actually concentrated <em>away</em> from Bloomsbury, in the City, the West End, Piccadilly, and Hyde Park.</span>
-          <!-- </div> -->
+            <img src=""/>
+            <span class="splash-caption">caption 8</span>
         </div>
 
         <div class="item">
-          <!-- <div class="splash-image-horiz"> -->
             <iframe width="613" height="460"
-              src="https://www.youtube.com/embed/JDw09hv0PHc?modestbranding=1&autohide=1&showinfo=0&autoplay=0&rel=0&controls=2"
-              frameborder="0" allowfullscreen>
+              src="" frameborder="0" allowfullscreen>
             </iframe>
-          <!-- </div> -->
+            <p> iframe </p>
         </div>
         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
