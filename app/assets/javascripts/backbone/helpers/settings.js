@@ -1,7 +1,8 @@
 var settings = {
+  "comments": ["",""],
   "global": {
     "localeName": "Authorial København",
-    "tagline": "Byen i bor og arbejder i sine Forfattere",
+    "tagline": "Byen i bor og arbejder i sine forfattere",
   },
   "map":{
     "localeCoords":[55.676098, 12.568337],

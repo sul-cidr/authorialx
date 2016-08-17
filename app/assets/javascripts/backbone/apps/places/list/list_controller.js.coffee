@@ -25,7 +25,7 @@
       App.placesRegion.show @layout
 
     listAreas: (borough) ->
-      $("#places_navmap h4").html('Neighborhoods in and around <span class="red">'+
+      $("#places_navmap h4").html('Neighborhoods in and around <br/><span class="red">'+
         boroughHash[borough]+'</span')
       hoodArray = boroughHoods[borough]
 
