@@ -37,6 +37,7 @@ gem 'sequel'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
 
+gem 'libv8', '3.16.14.19' # 3.16.14.13 not working anymore
 
 group :deployment do
   gem 'capistrano', '~> 3.0'
